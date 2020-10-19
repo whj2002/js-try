@@ -14,3 +14,19 @@ function b5()
         var a="选课人数未发生变化";
         window.alert(a);
     }
+function b6()
+    {
+        var j = 8;
+        j %= 7;
+        document.getElementById("a2").innerHTML= j;
+    }
+function b7()
+    {
+        var x2 = 8;
+        x2 = x2 + 7;
+        document.getElementById("a3").innerHTML= x2;
+    }
+function b8()
+    {
+        document.getElementById("a4").innerHTML=Date();
+    }
