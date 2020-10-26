@@ -37,3 +37,29 @@ function b4()
         document.getElementById("a5").innerHTML="您今天的运气怎么样呢：" + "“" + b + "”";
         document.getElementById("a6").innerHTML="您明天的课怎么样呢：" + d;
     }
+function b5()
+    {
+        var a = Math.floor(Math.random()*5);
+        switch (a)
+        {
+            case 0:
+                b = "无敌"
+                break;
+            case 1:
+                b = "欧皇"
+                break;
+            case 2:
+                b = "还行"
+                break;
+            case 3:
+                b = "一般"
+                break;
+            case 4:
+                b = "差"
+                break;
+            case 5:
+                b = "非酋"
+                break;
+        }
+        document.getElementById("a7").innerHTML="您今天的运气：" + b;
+    }
